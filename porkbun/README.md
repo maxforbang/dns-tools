@@ -8,27 +8,32 @@ A simple tool for managing DNS records using the Porkbun API.
 
 ## Installation
 
-1. Clone this repository or download the files
-2. Navigate to the porkbun directory
-3. Install dependencies:
+1. Clone this repository (if you haven't already):
+   ```bash
+   # If you haven't cloned the repository yet
+   git clone https://github.com/yourusername/dns-tools.git
+   cd dns-tools/porkbun
+   
+   # If you've already cloned the repository
+   cd path/to/dns-tools/porkbun
+   ```
 
-```bash
-bun install
-```
+2. Install dependencies:
+   ```bash
+   bun install
+   ```
 
-4. Set up your environment variables by creating a `.env` file:
+3. Set up your environment variables by creating a `.env` file:
+   ```bash
+   cp .env.example .env
+   ```
 
-```bash
-cp .env.example .env
-```
-
-5. Edit the `.env` file with your Porkbun API credentials:
-
-```
-PORKBUN_API_KEY=your_api_key_here
-PORKBUN_SECRET_API_KEY=your_secret_api_key_here
-DEFAULT_RECORD_TYPE=TXT
-```
+4. Edit the `.env` file with your Porkbun API credentials:
+   ```
+   PORKBUN_API_KEY=your_api_key_here
+   PORKBUN_SECRET_API_KEY=your_secret_api_key_here
+   DEFAULT_RECORD_TYPE=TXT
+   ```
 
 ## Usage
 

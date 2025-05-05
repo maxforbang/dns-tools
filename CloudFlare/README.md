@@ -9,12 +9,20 @@ A comprehensive tool for managing domains, DNS records, redirects, and zones usi
 
 ## Installation
 
-1. Navigate to the CloudFlare directory
-2. Install dependencies:
+1. Clone this repository (if you haven't already):
+   ```bash
+   # If you haven't cloned the repository yet
+   git clone https://github.com/yourusername/dns-tools.git
+   cd dns-tools/CloudFlare
+   
+   # If you've already cloned the repository
+   cd path/to/dns-tools/CloudFlare
+   ```
 
-```bash
-npm install
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
 ## Configuration
 
